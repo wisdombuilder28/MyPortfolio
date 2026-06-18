@@ -94,10 +94,10 @@ function txt(tag, className, text) {
 const projects = [
   { name: 'SkyCast', tag: 'Weather / Dashboard',
     problem:   'Checking the weather usually means a cluttered app or a boring interface that buries the data you actually need.',
-    solution:  'A premium weather dashboard with live conditions, hourly trends, a 5-day forecast, geolocation, and saved favorites — all in a clean glassmorphism interface.',
+    solution:  'A premium weather dashboard with live conditions, hourly trends, a 24 hours forecast, geolocation, and saved favorites — all in a clean glassmorphism interface.',
     challenge: 'Syncing the geolocation and weather API calls without race conditions, and building a graceful fallback for when users deny location access.',
     outcome:   'Users get local weather data instantly on first load with no manual input. The full forecast and hourly breakdown are accessible on any device in under two seconds.',
-    tech: ['JavaScript', 'REST API', 'Geolocation API', 'JSON', 'CSS'],
+    tech: ['JavaScript', 'REST API', 'Geolocation API', 'JSON', 'CSS', 'PWA', 'Responsive Design' ],
     live: 'https://skycast-weather-app-drab.vercel.app/' },
 
   { name: 'QuizOra', tag: 'Education / Quiz Platform',
@@ -105,7 +105,7 @@ const projects = [
     solution:  'A polished quiz platform with smooth interactions and instant feedback that keeps users engaged from start to finish.',
     challenge: 'Keeping quiz state consistent across multiple screens without losing progress, and ensuring score updates were announced correctly to screen readers.',
     outcome:   'Learners complete full quiz sessions with immediate feedback; accessible markup means users on assistive technology can participate without friction.',
-    tech: ['JavaScript', 'HTML', 'CSS'],
+    tech: ['JavaScript', 'HTML', 'CSS', 'PWA', 'Responsive Design'],
     live: 'https://quiz-ora-tan.vercel.app/' },
 
   { name: 'Nova Calc', tag: 'Utility / Productivity',
@@ -113,7 +113,7 @@ const projects = [
     solution:  'A keyboard-first calculator with a sharp, minimal interface and zero learning curve.',
     challenge: 'Implementing correct operator precedence in chained calculations and making keyboard shortcuts feel native without conflicting with browser defaults.',
     outcome:   'All standard and chained calculations work from the keyboard. Zero external dependencies mean the app loads in under a second on any connection.',
-    tech: ['JavaScript', 'HTML', 'CSS'],
+    tech: ['JavaScript', 'HTML', 'CSS', 'PWA', 'Responsive Design'],
     live: 'https://nova-calc-one.vercel.app/' },
 
   { name: 'Shopping Hub', tag: 'E-commerce',
@@ -121,15 +121,15 @@ const projects = [
     solution:  'A clean storefront with fast product discovery, instant filtering, an AI Chatbot for user assistant, clean UI/UX interface and a frictionless cart flow.',
     challenge: 'Managing cart state across the whole app without a dedicated library, while keeping product filtering fast on lower-end devices.',
     outcome:   'The full browse-to-cart flow runs as a single-page experience. Optimised state management keeps filtering instant, even on older mobile hardware.',
-    tech: ['JavaScript', 'HTML', 'CSS'],
+    tech: ['JavaScript', 'HTML', 'CSS', 'JSON', 'API', 'PWA', 'Responsive Design'],
     live: 'https://shoping-hub-xi.vercel.app/' },
 
   { name: 'Emeakroha Foundation School', tag: 'Education / Institution',
     problem:   'The school had no online presence — parents could not find program details, fees, or contact information without calling.',
-    solution:  'A professional school website with clear program listings, admissions information, and a trustworthy visual identity.',
+    solution:  'A professional school website with clear program listings, real AI chatbots, real announcement portal, admissions information, and a trustworthy visual identity.',
     challenge: 'Translating a real institution\'s brand into a credible digital identity, optimised for the slower mobile connections common across Nigeria.',
-    outcome:   'Parents can find programs, fees, and contact details without a phone call. The site loads reliably on 3G — the network most visitors use.',
-    tech: ['JavaScript', 'HTML', 'CSS', 'Responsive Design'],
+    outcome:   'Parents can find programs, fees, contact, and stay updated with real announcement details, without a phone call. The site loads reliably on 3G — the network most visitors use.',
+      tech: ['JavaScript', 'HTML', 'CSS', 'APIs', 'PWA', 'Responsive Design'],
     live: 'https://emeakroha-foundation-school.vercel.app/' },
 
   { name: 'Grade Flow', tag: 'EdTech / Dashboard',
