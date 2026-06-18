@@ -118,7 +118,7 @@ const projects = [
 
   { name: 'Shopping Hub', tag: 'E-commerce',
     problem:   'Small online stores lose buyers to slow product browsing and clunky cart experiences.',
-    solution:  'A clean storefront with fast product discovery, instant filtering, and a frictionless cart flow.',
+    solution:  'A clean storefront with fast product discovery, instant filtering, an AI Chatbot for user assistant, clean UI/UX interface and a frictionless cart flow.',
     challenge: 'Managing cart state across the whole app without a dedicated library, while keeping product filtering fast on lower-end devices.',
     outcome:   'The full browse-to-cart flow runs as a single-page experience. Optimised state management keeps filtering instant, even on older mobile hardware.',
     tech: ['JavaScript', 'HTML', 'CSS'],
